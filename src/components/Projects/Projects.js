@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import healthfirst from "../../Assets/Projects/healthfirst.png";
 import rideon from "../../Assets/Projects/rideon.png";
 import ecommerce from "../../Assets/Projects/ecommerce.png";
+import movie from "../../Assets/Projects/movie.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -52,10 +53,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={leaf}
+              imgPath={movie}
               isBlog={false}
               title="Movie Ticket Booking (Under construction 🛠️⏳‼️)"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="The app has a secure login system, ensuring that only authenticated users can access their personal information and booking history. Using React, Axios, and Ant Design, the app fetches real-time movie data and displays it in a clean, user-friendly interface. Users can view detailed movie information, add tickets to their cart, and manage quantities with ease. "
               ghLin="#"
               demoLink="#"
             />
