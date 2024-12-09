@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import healthfirst from "../../Assets/Projects/healthfirst.png";
 import rideon from "../../Assets/Projects/rideon.png";
-
+import ecommerce from "../../Assets/Projects/ecommerce.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -22,7 +22,7 @@ function Projects() {
               imgPath={healthfirst}
               isBlog={false}
               title="Healthfirst"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="HealthFirst offers an interactive and seamless experience across devices, making it easy for users to track their progress and stay motivated on their wellness journey. The mission is simple: to inspire healthier habits and provide actionable insights that lead to lasting change. With HealthFirst, healthier living becomes not just a goal, but a sustainable lifestyle."
               ghLink="https://github.com/RathishPavithran/Webpage-1.git"
               viewLink="https://healthfirst-webpage.netlify.app/"
             />
@@ -33,7 +33,7 @@ function Projects() {
               imgPath={rideon}
               isBlog={false}
               title="RideOn"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="The RideOn project highlights the importance of reliability and professionalism in transportation. With a focus on providing only the best, professionally trained drivers, RideOn ensures passengers get to their destinations safely and on time. The platform promises a seamless ride experience with a user-friendly interface and timely drivers."
               ghLin="#"
               demoLink="#"
             />
@@ -41,10 +41,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={editor}
+              imgPath={ecommerce}
               isBlog={false}
-              title="E-Commerce Site (Under construction 🛠️⏳‼️)"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="E-Commerce(Under construction 🛠️⏳‼️)"
+              description="I developed an interactive e-commerce platform that enhances product discoverability by implementing dynamic product filtering and a responsive search bar. Users can easily filter products by category using a dropdown menu, offering  seamless and personalized shopping experience."
               ghLink="https://github.com/RathishPavithran/E-Commerce.git"
               viewLink="https://ecommerce-webportal.netlify.app"              
             />

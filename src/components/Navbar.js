@@ -88,7 +88,7 @@ function NavBar() {
 
             {/* <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -101,7 +101,7 @@ function NavBar() {
                 href="https://github.com/RathishPavithran/Portfolio.git"
                 target="_blank"
                 className="fork-btn-inner"
-              >
+              >GitHub
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>

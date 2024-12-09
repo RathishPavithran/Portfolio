@@ -457,6 +457,8 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+  width: 400px !important;
+  letter-spacing: 0.05em;
 }
 
 .project-card-view {

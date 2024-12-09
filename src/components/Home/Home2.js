@@ -2,10 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  // AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+// import {AiFillGithub,AiFillInstagram,} from "react-icons/ai";
 import {FaEnvelope, FaLinkedinIn, FaUser, FaWhatsapp } from "react-icons/fa";
 
 function Home2() {
@@ -30,9 +27,6 @@ function Home2() {
               <i>
                 <b className="purple">User-Friendly, and Responise Website</b> and
                 that leave a lasting impression.{" "}
-                {/* <b className="purple">
-                  Blockchain.
-                </b> */}
               </i>
               <br />
               <br />
@@ -75,16 +69,6 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:rathish1227@gmail.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaEnvelope />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
                   href="tel:+91%209994907738"
                   target="_blank"
                   rel="noreferrer"
@@ -105,12 +89,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/rathish_pavithran/profilecard/?igsh=MXd3N2JkaHo2ZXFvdg=="
+                  href="mailto:rathish1227@gmail.com"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <FaEnvelope />
                 </a>
               </li>
             </ul>
