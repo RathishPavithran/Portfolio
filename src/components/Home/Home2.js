@@ -3,11 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
+  // AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaAddressBook, FaEnvelope, FaLinkedinIn, FaMailBulk, FaMap, FaPhone, FaUser, FaVoicemail, FaWhatsapp } from "react-icons/fa";
+import {FaEnvelope, FaLinkedinIn, FaUser, FaWhatsapp } from "react-icons/fa";
 
 function Home2() {
   return (
