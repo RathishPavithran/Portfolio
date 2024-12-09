@@ -34,8 +34,8 @@ function Projects() {
               isBlog={false}
               title="RideOn"
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLin="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              ghLin="#"
+              demoLink="#"
             />
           </Col>
 
@@ -46,7 +46,7 @@ function Projects() {
               title="E-Commerce Site (Under construction 🛠️⚙️‼️)"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
               ghLink="https://github.com/RathishPavithran/E-Commerce.git"
-              viewLink="ecommerce-webportal.netlify.app"              
+              viewLink="https://ecommerce-webportal.netlify.app"              
             />
           </Col>
 
@@ -56,8 +56,8 @@ function Projects() {
               isBlog={false}
               title="Movie Ticket Booking (Under construction 🛠️⚙️‼️)"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLin="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              ghLin="#"
+              demoLink="#"
             />
           </Col>
 
