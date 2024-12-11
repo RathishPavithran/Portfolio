@@ -39,7 +39,7 @@ function Certificate() {
               title="Back-End Development"
               institute="Ascentia Academy"
               location="Thoothukudi"
-              timeline="December 2024 - Present"
+              timeline="December 2024 - Ongoing"
               description="I am undergoing intensive training in a back-end development course, where I focus on the MERN stack (MongoDB, Express, React, Node.js). This course provides me with hands-on experience in building scalable, full-stack applications. I gain expertise in creating server-side logic, managing databases with MongoDB, and developing RESTful APIs using Express."
               // ghLink="https://github.com/soumyajit4419/Chatify"
               // demoLink="https://chatify-49.web.app/"
