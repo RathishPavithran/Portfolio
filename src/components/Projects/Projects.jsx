@@ -57,8 +57,8 @@ function Projects() {
               isBlog={false}
               title="Movie Ticket Booking (Under construction 🛠️⏳‼️)"
               description="The app has a secure login system, ensuring that only authenticated users can access their personal information and booking history. Using React, Axios, and Ant Design, the app fetches real-time movie data and displays it in a clean, user-friendly interface. Users can view detailed movie information, add tickets to their cart, and manage quantities with ease. "
-              ghLin="#"
-              demoLink="#"
+              ghLink="#https://github.com/RathishPavithran/Movie-Ticket.git"
+              viewLink="https://movie-ticket-view.netlify.app"
             />
           </Col>
         </Row>
