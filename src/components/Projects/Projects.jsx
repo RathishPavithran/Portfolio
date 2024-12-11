@@ -52,7 +52,7 @@ function Projects() {
               isBlog={false}
               title={<span className="purple">MOVIE TICKET</span>}
               description="This Movie Ticket Booking app is built with React, Ant Design, React Router DOM, and Axios. It fetches movie data from an API and displays it using Ant Design cards. Users can view movie details, add tickets to the cart, and manage them easily. A login page with protected routes ensures secure access to specific features, providing a smooth and responsive user experience. "
-              ghLink="#https://github.com/RathishPavithran/Movie-Ticket.git"
+              ghLink="https://github.com/RathishPavithran/Movie-Ticket.git"
               viewLink="https://movie-ticket-view.netlify.app"
             />
           </Col>
