@@ -7,34 +7,49 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Rathish Pavithran </span>
-            from <span className="purple"> Tuticorin, India.</span>
-            <br />
-            I have completed B.Tech in Information Technology at Anna
-            University.
-            <br />
-            I’m a fresher, a passionate web developer with a strong foundation in HTML, CSS, JavaScript, and React.js.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Editing
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
+        <h2 style={{ color: "#a588c0", textAlign: "center", fontWeight: "bold" }}>
+  Hello! I’m Rathish
+</h2>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-          "Passionate about creating websites that leave a lasting impact.!"{" "}
-          </p>
-          <footer className="blockquote-footer">RP</footer>
+<p style={{ textAlign: "justify", marginTop: "20px" }}>
+I hail from the mesmerizing Pearl City, <span className="purple" style={{ fontWeight: "bold" }}>TUTICORIN, India</span>.
+  <br />
+  A proud graduate of <span className="purple" style={{ fontWeight: "bold" }}>ANNA UNIVERSITY</span> with a B.TECH in <span className="purple" style={{ fontWeight: "bold" }}>INFORMATION TECHNOLOGY</span>, <span className="purple" style={{ fontStyle: "italic" }}>(2020 - 2024)</span>.
+  <br />
+  I’m an enthusiastic <span className="purple" style={{ fontWeight: "bold", fontStyle: "italic" }}>web developer</span> with a knack for crafting seamless, user-friendly digital experiences.
+  <br />
+  <br />
+  
+  I bring ideas to life on the web by blending my <span className="purple" style={{ fontWeight: "bold" }}>technical expertise</span> with <span className="purple" style={{ fontWeight: "bold" }}>creativity</span>, ensuring both <span className="purple" style={{ fontWeight: "bold" }}>functionality</span> and <span className="purple" style={{ fontWeight: "bold" }}>aesthetic appeal</span>.
+  With a strong command of <span className="purple" style={{ fontWeight: "bold" }}>HTML, CSS, Bootstrap, JavaScript,</span> and <span className="purple" style={{ fontWeight: "bold" }}>React.js</span>,
+  <br />
+  <br />
+  I am constantly learning and adapting, keeping myself updated with the latest trends in web development to create <span className="purple" style={{ fontWeight: "bold" }}>high-performing</span>, <span className="purple" style={{ fontWeight: "bold" }}>scalable</span>, and <span className="purple" style={{ fontWeight: "bold" }}>visually stunning websites</span>.
+  <br />
+  Let’s collaborate and build something impactful together! 🚀
+</p>
+
+
+          <h4 style={{ marginTop: "30px", color: "#a588c0", textAlign: "left" }}>Beyond coding, my interests include:</h4>
+
+<ul style={{ marginTop: "20px", paddingLeft: "20px", fontSize: "1.2rem" }}>
+  <li className="about-activity" style={{ marginBottom: "10px" }}>
+    <ImPointRight />  Designing visually striking content and layouts on Canva.🎨
+  </li>
+  <li className="about-activity" style={{ marginBottom: "10px" }}>
+    <ImPointRight />  Mellow my mind with music to stay calm and stress-free.🎶 
+  </li>
+  <li className="about-activity" style={{ marginBottom: "10px" }}>
+    <ImPointRight />  Exploring new destinations and embracing the joy of travel.🌍
+  </li>
+</ul>
+
+<p style={{ color: "rgb(155 126 172)", marginTop: "30px", fontStyle: "italic", textAlign: "center", fontSize: "1.1rem" }}>
+  "Passionate about creating websites that leave a lasting impact! 💻"
+</p>
+
+
+          <footer className="blockquote-footer" style={{ textAlign: "center" }}>RP</footer>
         </blockquote>
       </Card.Body>
     </Card>
