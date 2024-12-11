@@ -56,7 +56,7 @@ function Projects() {
               viewLink="https://movie-ticket-view.netlify.app"
             />
           </Col>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={rideon}
               isBlog={false}
@@ -70,7 +70,7 @@ function Projects() {
               ghLin="#"
               demoLink="#"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
