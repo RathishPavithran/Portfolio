@@ -21,7 +21,7 @@ function Home2() {
    <br/>
    <br />
     With every project, I strive to combine <b className="purple">creativity</b> and <b className="purple">functionality</b>, using modern technologies like 
-    <b className="purple"> Node.js</b>, <b className="purple">Express.js</b>, <b className="purple">React.js</b>, and 
+    <b className="purple"> <b className="purple">React.js</b>, Node.js</b>, <b className="purple">Express.js</b>, and 
     <b className="purple"> MongoDB</b> to build dynamic, scalable, and data-driven web applications 🔥.
     <br />
     <br />
