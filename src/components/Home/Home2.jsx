@@ -10,40 +10,25 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-             <span className="purple"> FIND</span> OUT WHAT <span className="purple"> DRIVES ME</span>
-            </h1>
-            <p className="home-about-body">
-            The act of coding 💻 is my journey 🚀 toward creating something significant 🌟 and impactful 🌍. 
-              <br />
-              {/* <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br /> */}
-              <br />
-              My field of Interest lies in building new &nbsp;
-              <i>
-                <b className="purple">User-Friendly, and Responise Website</b> and
-                that leave a lasting impression.{" "}
-              </i>
-              <br />
-              <br />
-              Whenever possible, I apply my passion for developing products
-              using <b className="purple">Node.js </b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
-            </p>
-          </Col>
+        <Col md={8} className="home-about-description">
+  <h1 style={{ fontSize: "2.6em" }}>
+    <span className="purple">FIND</span> OUT WHAT <span className="purple">DRIVES ME</span>
+  </h1>
+  <p className="home-about-body">
+    The act of coding 💻 is my journey 🚀 toward creating something <b className="purple">meaningful 🌟</b> and <b className="purple">impactful 🌍</b>.
+    
+    I am passionate about crafting <b className="purple">user-friendly, responsive websites</b> that leave a lasting impression.
+   <br/>
+   <br />
+    With every project, I strive to combine <b className="purple">creativity</b> and <b className="purple">functionality</b>, using modern technologies like 
+    <b className="purple"> Node.js</b>, <b className="purple">Express.js</b>, <b className="purple">React.js</b>, and 
+    <b className="purple"> MongoDB</b> to build dynamic, scalable, and data-driven web applications 🔥.
+    <br />
+    <br />
+    Exploring new tools and frameworks, I’m always excited to innovate and push the boundaries of <b className="purple">full-stack development</b> to deliver <b className="purple">seamless, high-performance digital experiences 💡</b>.
+  </p>
+</Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
