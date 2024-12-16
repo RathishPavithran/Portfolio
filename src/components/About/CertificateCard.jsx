@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-// import { BsEye, BsGithub, BsViewList } from "react-icons/bs";
+// import { CgWebsite } from "react-icons/cg";
+import { BsEye } from "react-icons/bs";
 
 function CertificateCard(props) {
   return (
@@ -31,25 +31,25 @@ function CertificateCard(props) {
     </Card.Text>
 
     {/* GitHub Link */}
-    {/* <Button variant="primary" href={props.ghLink} target="_blank">
+    <Button variant="primary" href={props.ghLink} target="_blank">
       <BsEye /> &nbsp;
       {props.isBlog ? "Blog" : "View"}
-    </Button> */}
+    </Button>
     {"\n"}
     {"\n"}
 
     {/* Demo Link (optional) */}
-    {!props.isBlog && props.demoLink && (
+    {/* {!props.isBlog && props.demoLink && (
       <Button
         variant="primary"
         href={props.demoLink}
         target="_blank"
         style={{ marginLeft: "10px" }}
       >
-        <CgWebsite /> &nbsp;
-        {"Demo"}
+        <BsEye /> &nbsp;
+        {"View"}
       </Button>
-    )}
+    )} */}
   </Card.Body>
 </Card>
 
